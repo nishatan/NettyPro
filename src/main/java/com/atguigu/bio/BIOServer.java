@@ -51,7 +51,6 @@ public class BIOServer {
             byte[] bytes = new byte[1024];
             //通过socket 获取输入流
             InputStream inputStream = socket.getInputStream();
-
             //循环的读取客户端发送的数据
             while (true) {
 
